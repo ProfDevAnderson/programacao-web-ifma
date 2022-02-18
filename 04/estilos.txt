@@ -1,0 +1,50 @@
+/* 
+--------------------
+Texto
+--------------------
+*/
+/* Estilo de decoração */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+
+/* Transforma o texto em maiuscula, minuscula... */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+
+/* Sombra no texto */
+/* h1{
+   text-shadow: 1px 1px white ;
+} */
+
+
+/* 
+----------------
+Fonte
+----------------
+*/
+/* h1{
+    font-family: 'Roboto Serif', sans-serif;
+} */
+
+/* Estilos das fontes */
+    /* font-style: normal;;
+    font-style: italic; */
+    /* font-style: oblic; */
+    /* font-style: italic; */
+/* Fonte em negrito */
+/* p{
+    font-weight: bold;
+} */
+
+
+/* Tamanho  da fonte */
+/* h1 {
+    font-size: 60px ;
+}
+
+a {
+    font-size: 10px;
+} */
