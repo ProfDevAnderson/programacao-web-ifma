@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aula 3</title>
+</head>
+
+<body>
+    <h1>Aula 3
+        <hr>
+    </h1>
+    <ul>
+        <li><s>Tabelas</s></li>
+        <li><s>Vídeos</s></li>
+        <li>Audio</li>
+        <li>Estrutura Semantica</li>
+        <li>Css</li>
+    </ul>
+    <br>
+    <h2>Tabelas
+        <hr>
+    </h2>
+    <p>São usadas para apresentar dados tabulados<br>Informação é apresentada através de linhas e colunas</p>
+    <img src="https://wpsemcodigo.com.br/wp-content/uploads/2020/01/exemplo-tabela-simples-4.png" width="300px">
+    <br>
+    Tabelas:
+    <ul>
+        <li>table - Criar a tabela</li>
+        <li>tr - Criar a linha da tabela</li>
+        <li>td - dado na tabela (coluna)</li>
+        <li>border -inserir a borda na tabela</li>
+    </ul>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Cia Aérea</th>
+                <th>Horário</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Latam</td>
+                <td>11:10</td>
+                <td>R$200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td>
+                <td>R$ 200</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="3">Notas dos alunos</th>
+            </tr>
+            <tr>
+                <th>Código</th>
+                <th>Nome</th>
+                <th>Nota</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>2</td>
+                <td>Jose</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Josue</td>
+                <td>2.5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Maior nota</td>
+                <td>2.5</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <table border="1">
+        <tr>
+            <td rowspan="4">Celula 1</td>
+            <td>Celula 2</td>
+        </tr>
+        <tr>
+            <td>Celula 3</td>
+        </tr>
+        <tr>
+            <td>Celula 4</td>
+        </tr>
+        <tr>
+            <td>Celula 5</td>
+        </tr>
+        <tr>
+            <td colspan="2">Celula 6</td>
+        </tr>
+    </table>
+
+    <br>
+    <h2>Vídeos
+        <hr>
+    </h2>
+    <video
+    width="100%"
+    height="400px"
+    controls  controlslist="nodownload" src="video/revisao-telecurso-2000.mp4"></video>
+
+    <br>
+    <h2>Áudio
+        <hr>
+    </h2>
+    <audio controls src="audio/1parte manha traumato.mp3"></audio>
+</body>
+
+</html>
